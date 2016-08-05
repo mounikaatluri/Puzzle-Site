@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+ <html>
+<head>
+    <style>
+    tr{
+        height: 50px;
+        vertical-align: middle;
+    }
+    body {
+        background-color: #85E085;
+    }
+    button
+    {
+        font-family: "Times New Roman";
+        font-size: 14px;
+        color: #FF66FF;
+    }
+    h2{
+        text-align: center;
+    }
+        </style>
+    <script type="text/javascript" src="puzzle.js" >
+        </script>
+    </head>
+     <body onload="load()">
+         <form name="myform" id="myform" >
+             <center>
+         <h2>Mounika's Proverb Puzzle Page</h2><br><br>
+         <p id="demo"></p>
+        
+         <div style="position: absolute; top: 120px; left: 1125px;
+"> 
+         <button type="button" id="clear" name="clear" onClick="window.location.reload()">NEW GAME</button></div>
+<span id="f">&nbsp;</span><br>
+         <button type="button" id="guess" name="guess" onClick="match()">Make your guess NOW</button>
+         </CENTER><br><br><br>
+<table width="400">
+<td><button type="button" id="0" name="0" onClick="return myFunction1(0)">FLIP</button></td>
+<td><button type="button" id="1" name="1" onClick="return myFunction1(1)">FLIP</button></td>
+<td><button type="button" id="2" name="2" onClick="return myFunction1(2)">FLIP</button></td>
+<td><button type="button" id="3" name="3" onClick="return myFunction1(3)">FLIP</button></td>
+<td><button type="button" id="4" name="4" onClick="return myFunction1(4)">FLIP</button></td>
+<td><button type="button" id="5" name="5" onClick="return myFunction1(5)">FLIP</button></td>
+<td><button type="button" id="6" name="6" onClick="return myFunction1(6)">FLIP</button></td>
+    <td><button type="button" id="7" name="7" onClick="return myFunction1(7)">FLIP</button></td>
+<td><button type="button" id="8" name="8" onClick="return myFunction1(8)">FLIP</button></td>
+    <td><button type="button" id="9" name="9" onClick="return myFunction1(9)">FLIP</button></td>
+<td><button type="button" id="10" name="10" onClick="return myFunction1(10)">FLIP</button></td>
+    <td><button type="button" id="11" name="11" onClick="return myFunction1(11)">FLIP</button></td>
+<td><button type="button" id="12" name="12" onClick="return myFunction1(12)">FLIP</button></td>
+    <td><button type="button" id="13" name="13" onClick="return myFunction1(13)">FLIP</button></td>
+<td><button type="button" id="14" name="14" onClick="return myFunction1(14)">FLIP</button></td>
+    <td><button type="button" id="15" name="15" onClick="return myFunction1(15)">FLIP</button></td>
+<td><button type="button" id="16" name="16" onClick="return myFunction1(16)">FLIP</button></td>
+    <td><button type="button" id="17" name="17" onClick="return myFunction1(17)">FLIP</button></td>
+<td><button type="button" id="18" name="18" onClick="return myFunction1(18)">FLIP</button></td>
+    <td><button type="button" id="19" name="19" onClick="return myFunction1(19)">FLIP</button></td>
+<td><button type="button" id="20" name="20" onClick="return myFunction1(20)">FLIP</button></td>
+    <td><button type="button" id="21" name="21" onClick="return myFunction1(21)">FLIP</button></td>
+<td><button type="button" id="22" name="22" onClick="return myFunction1(22)">FLIP</button></td>
+    <td><button type="button" id="23" name="23" onClick="return myFunction1(23)">FLIP</button></td>
+<td><button type="button" id="24" name="24" onClick="return myFunction1(24)">FLIP</button></td></tr>
+    <tr><td><button type="button" id="25" name="25" onClick="return myFunction1(25)">FLIP</button></td>
+<td><button type="button" id="26" name="26" onClick="return myFunction1(26)">FLIP</button></td>
+    <td><button type="button" id="27" name="27" onClick="return myFunction1(27)">FLIP</button></td>
+<td><button type="button" id="28" name="28" onClick="return myFunction1(28)">FLIP</button></td>
+    <td><button type="button" id="29" name="29" onClick="return myFunction1(29)">FLIP</button></td>
+<td><button type="button" id="30" name="30" onClick="return myFunction1(30)">FLIP</button></td>
+    <td><button type="button" id="31" name="31" onClick="return myFunction1(31)">FLIP</button></td>
+<td><button type="button" id="32" name="32" onClick="return myFunction1(32)">FLIP</button></td>
+    <td><button type="button" id="33" name="33" onClick="return myFunction1(33)">FLIP</button></td>
+<td><button type="button" id="34" name="34" onClick="return myFunction1(34)">FLIP</button></td>
+    <td><button type="button" id="35" name="35" onClick="return myFunction1(35)">FLIP</button></td>
+<td><button type="button" id="36" name="36" onClick="return myFunction1(36)">FLIP</button></td>
+    <td><button type="button" id="37" name="37" onClick="return myFunction1(37)">FLIP</button></td>
+<td><button type="button" id="38" name="38" onClick="return myFunction1(38)">FLIP</button></td>
+    <td><button type="button" id="39" name="39" onClick="return myFunction1(39)">FLIP</button></td>
+<td><button type="button" id="40" name="40" onClick="return myFunction1(40)">FLIP</button></td>
+    <td><button type="button" id="41" name="41" onClick="return myFunction1(41)">FLIP</button></td>
+<td><button type="button" id="42" name="42" onClick="return myFunction1(42)">FLIP</button></td>
+    <td><button type="button" id="43" name="43" onClick="return myFunction1(43)">FLIP</button></td>
+<td><button type="button" id="44" name="44" onClick="return myFunction1(44)">FLIP</button></td>
+    <td><button type="button" id="45" name="45" onClick="return myFunction1(45)">FLIP</button></td>
+<td><button type="button" id="46" name="46" onClick="return myFunction1(46)">FLIP</button></td>
+    <td><button type="button" id="47" name="47" onClick="return myFunction1(47)">FLIP</button></td>
+<td><button type="button" id="48" name="48" onClick="return myFunction1(48)">FLIP</button></td>
+    <td><button type="button" id="49" name="49" onClick="return myFunction1(49)">FLIP</button></td></tr></table>
+<h3><u> INSTRUCTIONS</u></h3>
+<ul><li> You have to flip each button in order to reveal the letters. If you want to guess the proverb Click on "Make your guess NOW"</li><br>
+    <li> To play this game, you can reveal no more than half of the characters of each proverb before make a guess. The more characters you left un-flipped before you make a correct guess, the more scores you will be awarded.</li><br>
+    <li>After You successfully entered your proverb. Click on "Submit your answer" </li><br>
+<li> If you get Message like you are almost there. Then please check the spellings and Vocabulary of the proverb </li><br>
+<li> You will have 3 chances to guess the Puzzle </li>
+<br>
+    <li> If you want to Change the proverb click on NEW GAME at top right of the page</li></ul>
+</form>
+</body>
+</html>
